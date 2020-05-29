@@ -160,8 +160,8 @@ BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libmdmcutback.so|libqsap_shim.so \
     /system/vendor/lib/lib-imsvt.so|libshims_ims.so \
-    /system/lib/libmot_sensorlistener.so|libsensor.so \
-    /system/lib/libjustshoot.so|libshims_camera.so \
+    /system/vendor/lib/libmot_sensorlistener.so|libsensor.so \
+    /system/vendor/lib/libjustshoot.so|libshims_camera.so \
     /system/vendor/lib/libmmcamera_wavelet_lib.so|libc_util.so \
     /system/vendor/lib/libperipheral_client.so|libshim_binder.so \
     /system/vendor/lib/libizat_core.so|libshims_get_process_name.so
