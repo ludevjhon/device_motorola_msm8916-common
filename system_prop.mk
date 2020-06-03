@@ -114,7 +114,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.snapshot_timer=22 \
     persist.vendor.radio.snapshot_enabled=1 \
     rild.libargs=-d/dev/smd0 \
-    rild.libpath=/vendor/lib/libril-qc-qmi-1.so \
+    rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so \
     ro.telephony.call_ring.multiple=false \
     persist.radio.aosp_usr_pref_sel=true
 
